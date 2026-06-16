@@ -97,7 +97,6 @@ export default function AboutMe() {
                       <div className="w-10 h-10 rounded-lg flex items-center justify-center font-bold text-sm bg-gradient-to-tr from-slate-50 to-slate-100 text-slate-800 border border-slate-150 relative overflow-hidden group-hover:scale-105 transition-transform duration-200">
                         {tool.name === 'Adobe Photoshop' && <span className="text-blue-600 font-extrabold text-base">Ps</span>}
                         {tool.name === 'Adobe Illustrator' && <span className="text-orange-500 font-extrabold text-base">Ai</span>}
-                        {tool.name === 'Canva Pro' && <span className="text-cyan-500 font-extrabold text-base font-serif">C</span>}
                         {tool.name === 'Figma' && <span className="text-rose-500 font-extrabold text-base">Fg</span>}
                       </div>
 

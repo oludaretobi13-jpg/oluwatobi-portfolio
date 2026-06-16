@@ -52,13 +52,6 @@ export default function HireMe() {
             <p className="text-slate-500 text-xs mt-2 leading-relaxed">
               Every design is conceptualized to solve a direct conversion bottleneck, helping you convert visitors into active, paying clients.
             </p>
-            <button
-              onClick={() => handleScrollToContact('General Inquiry')}
-              className="mt-4 text-xs font-bold text-accent-red flex items-center space-x-1 hover:text-accent-blue transition-colors cursor-pointer"
-            >
-              <span>Consult free of charge</span>
-              <ArrowUpRight className="w-3.5 h-3.5" />
-            </button>
           </div>
         </div>
 
@@ -118,34 +111,7 @@ export default function HireMe() {
           ))}
         </div>
 
-        {/* Master Section Action Callout */}
-        <div className="bg-slate-900 text-white rounded-3xl p-8 md:p-12 text-center space-y-6 relative overflow-hidden shadow-xl border border-slate-850">
-          {/* Neon absolute glows */}
-          <div className="absolute top-0 right-0 w-80 h-80 bg-accent-blue/10 rounded-full blur-3xl pointer-events-none"></div>
-          <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent-red/10 rounded-full blur-3xl pointer-events-none"></div>
 
-          <div className="max-w-2xl mx-auto space-y-4 relative z-10">
-            <span className="text-xs font-mono font-bold uppercase tracking-widest text-accent-red">
-              Partner With Tobi
-            </span>
-            <h3 className="text-2xl md:text-4xl font-display font-semibold tracking-tight">
-              Ready to elevate your brand’s visual presence?
-            </h3>
-            <p className="text-slate-400 text-xs md:text-sm leading-relaxed">
-              Let's craft graphic designs that stand out, communicate clearly, and leave lasting impressions on your paying clients. Simply fill out the brief below and secure your spot.
-            </p>
-          </div>
-
-          <div className="relative z-10 pt-2">
-            <button
-              onClick={() => handleScrollToContact('Master Creative Request')}
-              className="px-8 py-4 bg-gradient-to-r from-accent-red to-accent-blue hover:from-red-650 hover:to-blue-650 text-white rounded-xl text-xs font-semibold uppercase tracking-wider shadow-lg hover:shadow-xl transition-all inline-flex items-center space-x-2 cursor-pointer"
-            >
-              <span>Get Started Now</span>
-              <ArrowUpRight className="w-4 h-4" />
-            </button>
-          </div>
-        </div>
 
       </div>
     </section>

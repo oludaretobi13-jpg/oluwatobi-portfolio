@@ -10,8 +10,8 @@ export default function Footer() {
 
   const footerSocials = [
     { icon: <Mail className="w-4.5 h-4.5" />, href: 'mailto:oludaretobi13@gmail.com', label: 'Email' },
-    { icon: <Phone className="w-4.5 h-4.5" />, href: 'tel:+2348163533418', label: 'Call' },
-    { icon: <MessageSquare className="w-4.5 h-4.5" />, href: 'https://wa.me/2348163533418', label: 'WhatsApp' },
+    { icon: <Phone className="w-4.5 h-4.5" />, href: 'tel:+2347075631541', label: 'Call' },
+    { icon: <MessageSquare className="w-4.5 h-4.5" />, href: 'https://wa.me/2347075631541', label: 'WhatsApp' },
     { icon: <Linkedin className="w-4.5 h-4.5" />, href: 'https://www.linkedin.com/in/tobi-oludare-a8b036380', label: 'LinkedIn' },
   ];
 
@@ -45,7 +45,7 @@ export default function Footer() {
               <span className="block text-[10px] uppercase font-mono tracking-wider font-bold text-slate-500">Fast Contact</span>
               <p className="text-xs text-slate-350 flex items-center space-x-1.5 select-none">
                 <Phone className="w-3.5 h-3.5 text-accent-blue shrink-0" />
-                <span>+234 816 353 3418</span>
+                <span>+234 707 563 1541</span>
               </p>
             </div>
           </div>

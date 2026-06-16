@@ -186,7 +186,6 @@ export const SKILL_PERCENTAGES = [
 export const TOOLS: Tool[] = [
   { name: 'Adobe Photoshop', level: 98, iconName: 'photoshop', category: 'design' },
   { name: 'Adobe Illustrator', level: 96, iconName: 'illustrator', category: 'design' },
-  { name: 'Canva Pro', level: 90, iconName: 'canva', category: 'core' },
   { name: 'Figma', level: 88, iconName: 'figma', category: 'prototyping' },
 ];
 
@@ -207,7 +206,7 @@ export const SERVICES: Service[] = [
     id: 'srv-3',
     title: 'Social Media Design',
     description: 'Thumb-stopping, professional social graphics designed to match premium identity standards. Drive high audience interaction, click-through-rates, and brand presence on social media.',
-    features: ['High-converting Canva templates', 'Instagram Grid/Stories templates', 'LinkedIn and YouTube Banner sets', 'Content Structure & Highlight covers', 'Post layouts optimized for conversion']
+    features: ['High-converting design templates', 'Instagram Grid/Stories templates', 'LinkedIn and YouTube Banner sets', 'Content Structure & Highlight covers', 'Post layouts optimized for conversion']
   },
   {
     id: 'srv-4',
