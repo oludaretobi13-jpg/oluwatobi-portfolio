@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
   {
     id: 'proj-5',
     title: 'CR7 - Dynamic Vector Motion Poster',
-    category: 'Illustration',
+    category: 'Poster Design',
     image: '/RONALDO-01.jpg',
     description: 'A striking vector motion-path tribute illustration celebrating the monumental career and athletic stance of Cristiano Ronaldo.',
     objective: 'Illustrate dynamic athletic energy through geometric light flows and custom vector curves.',

@@ -1,8 +1,28 @@
+import { useState } from 'react';
 import { ArrowRight, Sparkles, ShieldCheck, Trophy, Award } from 'lucide-react';
 import { motion } from 'motion/react';
 import { TOBI_HEADSHOT } from '../data';
 
 export default function Hero() {
+  const [currentImgSrc, setCurrentImgSrc] = useState("https://i.ibb.co/vCGWxW1L/passport.png");
+
+  const fallbackSources = [
+    "https://i.ibb.co/vCGWxW1/passport.png",
+    "https://i.ibb.co/vCGWxWlL/passport.png",
+    "https://i.ibb.co/vCGWxW11/passport.png",
+    "https://i.ibb.co/Kckgjg6V/passport.png",
+    TOBI_HEADSHOT
+  ];
+
+  const handleImageError = () => {
+    const currentIndex = fallbackSources.indexOf(currentImgSrc);
+    if (currentIndex === -1) {
+      setCurrentImgSrc(fallbackSources[0]);
+    } else if (currentIndex < fallbackSources.length - 1) {
+      setCurrentImgSrc(fallbackSources[currentIndex + 1]);
+    }
+  };
+
   const handleScrollTo = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -122,12 +142,13 @@ export default function Hero() {
               transition={{ duration: 0.7, type: 'spring' }}
               className="relative rounded-2xl overflow-hidden shadow-2xl bg-slate-100 z-10 w-full max-w-sm md:max-w-md aspect-square border-4 border-white"
             >
-              {/* Main headshot image with no-referrer policy */}
+              {/* Main headshot image with fallback error handling */}
               <img
                 id="tobi-headshot-img"
-                src="https://i.ibb.co/vCGWxW1L/passport.png"
+                src={currentImgSrc}
                 alt="Tobi Oludare"
                 referrerPolicy="no-referrer"
+                onError={handleImageError}
                 className="w-full h-full object-cover select-none object-center"
               />
 
