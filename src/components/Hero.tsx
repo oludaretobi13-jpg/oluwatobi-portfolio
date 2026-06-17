@@ -4,12 +4,10 @@ import { motion } from 'motion/react';
 import { TOBI_HEADSHOT } from '../data';
 
 export default function Hero() {
-  const [currentImgSrc, setCurrentImgSrc] = useState("https://i.ibb.co/vCGWxW1L/passport.png");
+  const [currentImgSrc, setCurrentImgSrc] = useState("https://i.ibb.co/VYtqHQjb/file-00000000b4ec71f4b7947e4f4a32a16a.png");
 
   const fallbackSources = [
-    "https://i.ibb.co/vCGWxW1/passport.png",
-    "https://i.ibb.co/vCGWxWlL/passport.png",
-    "https://i.ibb.co/vCGWxW11/passport.png",
+    "https://i.ibb.co/vCGWxW1L/passport.png",
     "https://i.ibb.co/Kckgjg6V/passport.png",
     TOBI_HEADSHOT
   ];

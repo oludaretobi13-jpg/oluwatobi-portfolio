@@ -24,7 +24,7 @@ export default function AboutMe() {
                 I am <span className="font-semibold text-slate-900">Tobi Oludare</span>, a certified, highly focused graphic designer driven by a single guiding mission: to translate business value into elite visual communications. Design is never about decoration. Truly great design is an asset class that builds customer trust and multiplies conversion rates.
               </p>
               <p>
-                For over half a decade, I have collaborated with brand leaders, fast-growing tech startups, and independent founders worldwide. By merging rigorous design principles with active psychology, I construct visual systems that carry structural messaging clearly and trigger immediate client attraction.
+                I have collaborated with brand leaders, fast-growing tech startups, and independent founders worldwide. By merging rigorous design principles with active psychology, I construct visual systems that carry structural messaging clearly and trigger immediate client attraction.
               </p>
               <p>
                 My working framework prioritizes clean, premium grids, functional spacing, sophisticated color strategy (like my tailored red and blue energy systems), and modern typography. I pride myself on maintaining professional transparency, rigorous timelines, and bulletproof delivery consistency.
@@ -38,7 +38,7 @@ export default function AboutMe() {
                 <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Experience</span>
               </div>
               <div className="bg-white p-4 rounded-xl border border-slate-100 shadow-sm text-center sm:text-left">
-                <span className="block font-display text-2xl md:text-3xl font-black bg-gradient-to-r from-accent-red to-accent-blue bg-clip-text text-transparent uppercase">10+</span>
+                <span className="block font-display text-2xl md:text-3xl font-black bg-gradient-to-r from-accent-red to-accent-blue bg-clip-text text-transparent uppercase">15+</span>
                 <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Completed Projects</span>
               </div>
             </div>
